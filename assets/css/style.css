@@ -171,3 +171,128 @@ footer {
   border-top: 10px solid #4aaaa5;
   clear: both;
   }
+
+/** adding in media tags */
+@media screen and ( max-width: 980px) {
+  .my-image {
+    width: 50%%;
+  }
+
+  nav {
+    padding-right: 20px;
+  }
+
+  .main-body {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #main-container{
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  #main-header {
+    margin-top: -20px;
+  }
+  #info {
+    border-color: #efefef;
+  }
+  #message {
+    border-color: #efefef;
+  }
+  #connect {
+    margin-top: 150px;
+  }
+
+  .portfolio {
+    padding: 0px;
+  }
+
+  h3 {
+    padding: 2px;
+  }
+}
+
+
+@media screen and ( max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  .my-image {
+    width: 100%;
+  }
+
+  .main-body {
+    width: 100%;
+    margin-top: 120px;
+  }
+  #connect {
+    margin-bottom: 200px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #main-container{
+    padding-top: 0;
+  }
+  #main-header {
+    margin-top: -20px;
+  }
+  #info {
+    border-color: #efefef;
+  }
+  #message {
+    border-color: #efefef;
+  }
+  }
+
+@media screen and ( max-width: 640px) {
+header {
+  position: static;
+}
+
+img {
+  width: 100%;
+}
+
+.my-image {
+  width: 100%;
+}
+
+#my-name {
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+}
+
+.main-body {
+  width: 100%;
+  margin-top: 150px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#connect {
+  margin-bottom: 150px;
+}
+
+}
